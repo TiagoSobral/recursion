@@ -11,7 +11,6 @@ function mergeSort(array) {
 		 slice doesn't include end so mid+1 */
 		const left = array.slice(0, mid + 1);
 		const right = array.slice(mid + 1);
-
 		const arrayLeft = mergeSort(left);
 		const arrayRight = mergeSort(right);
 		let sortedArray = [];
